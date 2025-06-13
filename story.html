@@ -1,38 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Story Title</title>
+<title>The Stormbound Bond</title>
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-  }
-  .story-container {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  .story-container img {
-    max-width: 100%;
-    height: auto;
-  }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    .beginning, .challenge, .ending {
+        margin-bottom: 20px;
+    }
+    img[src='beginning.png'], img[src='challenge.png'], img[src='ending.png'] {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
 </style>
 </head>
 <body>
-<div class="story-container">
-<h2>Beginning</h2>
-<img src="beginning.png" alt="Challenge Image">
-<p><strong>Challenge:</strong></p>
-<img src="challenge.png" alt="Ending Image">
-<h2>Ending</h2>
+
+<div class="beginning">
+    <p>In the realm of Aethereia, where the skies raged with perpetual storms, the village of Brindlemark lay in peril. Eira, a young apprentice healer, was fleeing from the clutches of the dark sorcerer, Malakai. With her life on the line, she stumbled upon a mysterious warrior, Kaelin Darkhaven, who possessed the ability to control the elements. As they collided, their eyes locked, and Eira sensed an unbreakable bond between them.</p>
+    <img src='beginning.png'>
 </div>
-<script>
-// Add any JavaScript code here if needed
-</script>
+
+<div class="challenge">
+    <p>We must escape,</p>
+    <img src='challenge.png'>
+</div>
+
+<div class="ending">
+    <p>You must add an image tag element for the Beginning(src='beginning.png'), Challenge(src='challenge.png') and Ending(src='ending.png') parts at the bottom of each paragraph text.</p>
+    <img src='ending.png'>
+</div>
+
 </body>
 </html>
+
+Note: The images 'beginning.png', 'challenge.png' and 'ending.png' should be present in the same directory as the HTML file for this code to work correctly.
