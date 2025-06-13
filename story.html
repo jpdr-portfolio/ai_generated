@@ -1,44 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>The Stormbound Bond</title>
+<title>The Prophecy of Tenaria</title>
 <style>
     body {
         font-family: Arial, sans-serif;
         background-color: #f0f0f0;
         color: #333;
     }
-    .beginning, .challenge, .ending {
-        margin-bottom: 20px;
-    }
-    img[src='beginning.png'], img[src='challenge.png'], img[src='ending.png'] {
-        max-width: 100%;
-        height: auto;
+    .story-content p::after {
+        content: url('beginning.png');
         display: block;
-        margin: 0 auto;
+        width: 100%;
+        height: 250px; /* Adjust as needed */
+        background-size: cover;
+        position: relative;
+        top: -250px; /* Adjust as needed to align with the image */
+    }
+    .challenge p::after {
+        content: url('challenge.png');
+        display: block;
+        width: 100%;
+        height: 250px; /* Adjust as needed */
+        background-size: cover;
+        position: relative;
+        top: -250px; /* Adjust as needed to align with the image */
+    }
+    .ending p::after {
+        content: url('ending.png');
+        display: block;
+        width: 100%;
+        height: 250px; /* Adjust as needed */
+        background-size: cover;
+        position: relative;
+        top: -250px; /* Adjust as needed to align with the image */
     }
 </style>
 </head>
 <body>
+<h1>The Prophecy of Tenaria</h1>
 
-<div class="beginning">
-    <p>In the realm of Aethereia, where the skies raged with perpetual storms, the village of Brindlemark lay in peril. Eira, a young apprentice healer, was fleeing from the clutches of the dark sorcerer, Malakai. With her life on the line, she stumbled upon a mysterious warrior, Kaelin Darkhaven, who possessed the ability to control the elements. As they collided, their eyes locked, and Eira sensed an unbreakable bond between them.</p>
-    <img src='beginning.png'>
-</div>
+<p>In the realm of Tenaria, where dragons soared the skies and ancient magic dwelled in every stone, a young warrior named Thorne Blackwood roamed the land as a champion of justice. With his trusty sword by his side, he had heard whispers of a dire prophecy: the dark sorceress, Lyraea, would unleash a catastrophic event that would destroy the balance of nature. Determined to prevent it, Thorne set out to track down Lyraea and put an end to her sinister plans.</p>
 
-<div class="challenge">
-    <p>We must escape,</p>
-    <img src='challenge.png'>
-</div>
+<p class="challenge">Thorne's quest led him to the heart of the Dark Forest, where Lyraea was rumored to be hiding. As he navigated the treacherous paths, the air grew thick with malevolent energy. Suddenly, a figure emerged from the shadows – a twisted, humanoid creature born from Lyraea's dark magic. Thorne fought valiantly, but the creature proved formidable, and Lyraea appeared, her eyes blazing with malevolence. "You'll never stop me," she cackled, as she summoned a horde of undead warriors to aid her.</p>
 
-<div class="ending">
-    <p>You must add an image tag element for the Beginning(src='beginning.png'), Challenge(src='challenge.png') and Ending(src='ending.png') parts at the bottom of each paragraph text.</p>
-    <img src='ending.png'>
-</div>
-
+<p class="ending">Thorne's bravery was tested to its limits as he faced off against the undead army and Lyraea herself. But with his sword shining brighter than ever before, he fought on, fueled by his determination to protect the realm. In a final, desperate bid to defeat Lyraea, Thorne used all his strength to shatter her staff, banishing the dark magic that had driven her mad. As the darkness dissipated, Lyraea's true form was revealed – a tragic victim of her own ambition. With her evil plans foiled and her powers broken, Lyraea wept tears of remorse, and Thorne, his quest complete, rode off into the sunset, hailed as a hero by the people of Tenaria.</p>
 </body>
 </html>
-
-Note: The images 'beginning.png', 'challenge.png' and 'ending.png' should be present in the same directory as the HTML file for this code to work correctly.
